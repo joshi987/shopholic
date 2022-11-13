@@ -1,0 +1,219 @@
+/* ----------------account-page------- */
+
+.account-page
+{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.form-container
+{
+    left:700px;
+    top: 120px;
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+     overflow: hidden;   /*for hidding the form */
+}
+.form-container span
+{
+    font-weight: bold;
+    /* //padding: 0 0px; */
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+
+}
+
+.form-button
+{
+    display: inline-block;
+}
+.form-container form
+{
+    max-width: 300px;
+    padding:0 20px;
+    position: absolute;
+    top: 130px;
+     transition: transform 1s;  /* for moving slightly */
+}
+
+form input
+{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10%;
+    border: 1px solid #ccc;
+    /* background-color: aquamarine; */
+
+}
+
+/* form .button
+{
+    width: 60%;
+    border-style: solid;
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: bisque;
+    border-color: black;
+    border-radius: 10%;
+} */
+form .button {
+        width:50%;
+        height: 30px;
+        border-style:solid;
+        cursor: pointer;
+        margin: 10px 0;
+        background-color: #EB984E ;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        border: 2px solid black;
+        color: white;
+        
+      }
+      
+.button:hover 
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+form .button:focus
+{
+    outline: none;
+
+}
+#logform
+{
+    left: -300px;
+}
+#regform
+{
+    left:0;
+}
+form a
+{
+    font-size: 12px;
+}
+#Indicator
+{
+    width: 80px;
+    border:none;
+    background:#ff523b;
+    height: 2px;
+    margin-left: 2px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+} 
+header
+{
+    height: 40px;
+    background-color: #EB984E;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+    
+}
+
+.slogan
+{
+    margin-top: 10px;
+}
+
+/* footer
+{
+
+    height: 200px;
+    background-color: #8b756f;
+}
+
+.logo
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+} */
+
+/* .instalogo
+{
+   margin-left: 80%; 
+   margin-bottom: 30%;
+} */
+
+.inner-footer
+{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.social-links
+{
+    display: flex;
+}
+
+.social-links ul
+{
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.social-items
+{
+    list-style: none;
+}
+.social-items a
+{
+     padding: 10px 20px;
+     font-size: 35px;
+   
+
+}
+/* .abcd
+{
+    margin-left: 900px;
+} */
+.quick-links
+{
+    display: flex;
+    width: 560px;
+    height: 70px;
+    margin: auto;
+    
+}
+
+.quick-links ul
+{
+
+    display: flex;
+
+}
+
+.quick-items
+{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    font-style: normal;
+    color: #ccc;
+    margin-left: 10px;
+}
+
+.outer-footer
+{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background-color: #555;
+}
